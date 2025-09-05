@@ -1,0 +1,50 @@
+html,body{
+  width: 100vw;
+  min-height: 100svh;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.container{
+  border: 1px solid black;
+  width: max(30%,300px);
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+input {
+  font-size: max(1vw,16px);
+  border: none;
+  width: 100%;
+  outline: none;
+  padding: 4px 10px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 10px;
+  padding-top: 10px;
+}
+li:first-child{
+  border-top: 1px solid black;
+}
+li{
+  font-size: max(1vw,16px);
+  border-bottom: 1px solid black;
+  padding: 4px 0;
+}
+
+li:last-child{
+  border-bottom: none;
+}
