@@ -11,7 +11,6 @@ const App = () => {
     const data = await fetch("https://dummyjson.com/recipes/search?q=" + input)
     const json = await data.json()
     setResults(json.recipes)
-    console.log(input)
   }
 
   useEffect(()=>{
